@@ -24,6 +24,7 @@ def get_user_input():
             num_list.append(float(item.strip()))
     unique = list(set(num_list))
     return unique
+
 def calc_average(num_list):
     total=sum(num_list)
     amount=len(num_list)
